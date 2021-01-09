@@ -1,5 +1,7 @@
 body {
     background-color: rgb(230, 230, 230);
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 header {
@@ -16,6 +18,10 @@ header {
 header a {
     text-decoration: none;
     color: rgb(250, 117, 29);
+}
+
+header .nav a:hover{
+    color: whitesmoke;
 }
 
 header .logo {
@@ -56,8 +62,9 @@ header .nav {
     flex-direction: column;
     border: 0px solid black;
     border-radius: 20px;
-    background-color: rgb(150, 150, 150);
-    margin: 2vw;
+    background-color: rgb(64,64,64);
+    margin: 2%;
+    padding: 1%;
     width: 27vw;
     height: 32vw;
 }
@@ -79,16 +86,35 @@ header .nav {
 
 .landmarkTitle{
     font-size: 120%;
-    color: rgb(37, 39, 167);
+    color: rgb(255 74 74);
 }
 
 .landmarkInfo{
     font-size: 70%;
-    width: 23vw;
-    height: 10vw;
+    width: 91%;
+    height: 38%;
     white-space: normal;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin-bottom: 20px;
     color: rgb(228, 228, 228);
+}
+
+.planChoose{
+    margin: 2vw;
+    border-radius: 20px;
+    background-color: rgb(255, 238, 164);
+    padding: 2vw;
+}
+
+.planChoose label{
+    font-weight: bold;
+}
+
+.planChoose p{
+    margin-left: 2vw;
+}
+
+.bookInfo{
+    margin-left: 3vw;
+    margin-top: 3vw;
 }
