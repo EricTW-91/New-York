@@ -8,10 +8,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(24, 43, 218);
     margin: 0;
     padding: 0;
     font-family: 'Anton', sans-serif;
+    background-color: #003980;
 }
 
 
@@ -42,6 +42,11 @@ header .nav {
 
 .nav a {
     margin-right: 2vw;
+}
+
+.contentOne p{
+    text-indent: 30px;
+    text-align: justify;
 }
 
 .articlePic{
