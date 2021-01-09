@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(24, 43, 218);
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+}
+
+
+header a {
+    text-decoration: none;
+    color: rgb(250, 117, 29);
+}
+
+header .logo {
+    font-size: 6vw;
+    margin: 2%;
+    color: rgb(250, 117, 29);
+}
+
+header .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2vw;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.nav a {
+    margin-right: 2vw;
+}
+
+.articlePic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.landmarkContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.landmarkBlock{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color: rgb(150, 150, 150);
+    margin: 2vw;
+    width: 27vw;
+    height: 32vw;
+}
+
+.landmarkPhoto{
+    padding: 3%;
+    width: 92%;
+    height: 40%;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.landmarkTitle, .landmarkInfo{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.landmarkTitle{
+    font-size: 120%;
+    color: rgb(37, 39, 167);
+}
+
+.landmarkInfo{
+    font-size: 70%;
+    width: 23vw;
+    height: 10vw;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+    color: rgb(228, 228, 228);
+}
