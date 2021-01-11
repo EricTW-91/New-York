@@ -123,3 +123,18 @@ header .nav {
     margin-left: 3vw;
     margin-top: 3vw;
 }
+
+.submitBut{
+    width: 300px;
+    height: 50px;
+    margin-left: 2vw;
+}
+
+footer{
+    text-align: center;
+    background-color: #003980;
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 2vw;
+}
